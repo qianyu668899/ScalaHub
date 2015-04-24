@@ -31,6 +31,8 @@
     <orderEntry type="library" name="SBT: org.mongodb:casbah-gridfs_2.11:2.7.3:jar" level="project" />
     <orderEntry type="library" name="SBT: org.mongodb:casbah-query_2.11:2.7.3:jar" level="project" />
     <orderEntry type="library" name="SBT: org.mongodb:mongo-java-driver:2.12.3:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.slf4j:slf4j-api:1.6.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: ch.qos.logback:logback-classic:1.1.2:jar" level="project" />
+    <orderEntry type="library" name="SBT: ch.qos.logback:logback-core:1.1.2:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.slf4j:slf4j-api:1.7.6:jar" level="project" />
   </component>
 </module>
