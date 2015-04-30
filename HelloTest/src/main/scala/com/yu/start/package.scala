@@ -10,7 +10,7 @@ package object start {
   def main(args: Array[String]) {
     val mongoClient = MongoClient("localhost", 27017)
     insert(mongoClient, "test")
-    println(getCount(mongoClient, "test"))
+    //println(getCount(mongoClient, "test"))
     getCursor(mongoClient, "test")
     update(mongoClient, "test")
     remove(mongoClient, "test")
