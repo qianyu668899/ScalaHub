@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id="hellotest" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" type="JAVA_MODULE" version="4">
+<module external.linked.project.id="HelloTest" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/../../target/scala-2.11/classes" />
     <output-test url="file://$MODULE_DIR$/../../target/scala-2.11/test-classes" />
@@ -22,17 +22,5 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.11.6:jar" level="project" />
-    <orderEntry type="library" name="SBT: com.github.nscala-time:nscala-time_2.11:1.0.0:jar" level="project" />
-    <orderEntry type="library" name="SBT: joda-time:joda-time:2.3:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.joda:joda-convert:1.2:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.mongodb:casbah-commons_2.11:2.7.3:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.mongodb:casbah-core_2.11:2.7.3:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.mongodb:casbah-gridfs_2.11:2.7.3:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.mongodb:casbah-query_2.11:2.7.3:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.mongodb:mongo-java-driver:2.12.3:jar" level="project" />
-    <orderEntry type="library" name="SBT: ch.qos.logback:logback-classic:1.1.2:jar" level="project" />
-    <orderEntry type="library" name="SBT: ch.qos.logback:logback-core:1.1.2:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.slf4j:slf4j-api:1.7.6:jar" level="project" />
   </component>
 </module>
