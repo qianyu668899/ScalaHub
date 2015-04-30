@@ -7,7 +7,7 @@ object MyBuild extends Build {
     id = "HelloTest",
     base = file("."),
     settings = Defaults.defaultSettings ++ releaseSettings ++ Seq( /* custom settings here */
-      organization := "yu.personal",
+      organization := "https://github.com/qianyu668899",
       version := "0.1.0",
       scalaVersion := "2.11.6",
       libraryDependencies ++= List(
