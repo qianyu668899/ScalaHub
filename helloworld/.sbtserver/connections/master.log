@@ -1,0 +1,25 @@
+New log file opened at Thu May 07 11:45:14 EDT 2015 by 11836@Yus-MacBook-Pro.local
+Taking next connection to: 52497
+New client attempting to connect on port: 52498-52497
+  Address = /172.16.20.93:52497
+This client on port 52498 has uuid 4d8bff78-ef5c-487c-adc5-5c475b2e647d configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
+Connected Clients: activator-4d8bff78-ef5c-487c-adc5-5c475b2e647d
+Taking next connection to: 52497
+New client attempting to connect on port: 52499-52497
+  Address = /172.16.20.93:52497
+Handshake exception on socket: 52499
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 52497
+New client attempting to connect on port: 52500-52497
+  Address = /172.16.20.93:52497
+This client on port 52500 has uuid 59ba5f16-0610-48fd-aa27-df7ff4815852 configName activator humanReadableName Activator protocolVersion 1 featureTags Vector()
+Connected Clients: activator-4d8bff78-ef5c-487c-adc5-5c475b2e647d, activator-59ba5f16-0610-48fd-aa27-df7ff4815852
+Taking next connection to: 52497
